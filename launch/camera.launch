@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="camera_pub" type="camera_pub_node" name="camera_pub_node" output="screen">
+        <param name="video_path" type="string" value="/home/lingkang/Videos/drive.mp4" />
+    </node>
+</launch>
